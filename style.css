@@ -1,0 +1,16 @@
+body{
+    font-family: sans-serif;
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: beige;
+    cursor: pointer;
+    
+}

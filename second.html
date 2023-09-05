@@ -1,0 +1,42 @@
+<html>
+    <head>
+    <title>second room page</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-database.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="second.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <button id="logout" onclick="logout();" class="glyphicon glyphicon-log-out btn btn-danger">Logout</button>
+            <center> 
+                <h1 class="header">
+                    gmail
+                    <sup>
+                        <img src="gmail.jpg">           
+                    </sup>                  
+                </h1>
+                <div id="output" style="text-align: left;margin-bottom: 70px;"></div>
+           <h3 id="user_name" class="color_white"></h3>
+                <div class="form-group input_div_room_page">
+                
+                <label>#Add Room:</label>
+                    <input type="text" id="room_name" class="form-control" placeholder="#Add Room">
+                </div>
+                <button onclick="addRoom();"class="btn btn-success">#Add Room</button>
+                <h3 class="color_white">#TRENDINGROOMS</h3>
+                <div id="output"></div>
+
+            </center>
+        
+        
+        </div>
+    
+    </body>
+
+
+</html>
